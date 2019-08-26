@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  height: 10vh;
+  font-family: 'Lato', sans-serif;
+  background: black;
+}
+
+.countdown {
+  color: red;
+  font-size: 5em;
+  margin: auto;
+  display: flex;
+}
+.countdown > * {
+  position: relative;
+  padding: 0 0.075em 0.3em;
+}
+.countdown > *::after {
+  text-transform: uppercase;
+  display: block;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  font-size: 0.25em;
+  margin-block-start: 30px;
+  color: #fff;
+}
+.countdown > *:nth-child(1)::after {
+  content: 'days';
+}
+.countdown > *:nth-child(2)::after {
+  content: 'hours';
+}
+.countdown > *:nth-child(3)::after {
+  content: 'minutes';
+}
+.countdown > *:nth-child(4)::after {
+  content: 'seconds';
+}
