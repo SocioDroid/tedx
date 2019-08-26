@@ -6,7 +6,7 @@
 }
 
 .countdown {
-  color: red;
+  color: #fff;
   font-size: 5em;
   margin: auto;
   display: flex;
@@ -24,7 +24,7 @@
   left: 0;
   font-size: 0.25em;
   margin-block-start: 30px;
-  color: #fff;
+  color: red;
 }
 .countdown > *:nth-child(1)::after {
   content: 'days';
