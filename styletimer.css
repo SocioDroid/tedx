@@ -38,3 +38,16 @@
 .countdown > *:nth-child(4)::after {
   content: 'seconds';
 }
+
+
+@media screen and (max-width : 375px)
+{
+  .container1
+  {
+    font-size:0.5em;
+  }
+}
+
+
+
+
